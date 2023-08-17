@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10fd6ab3665b7c47b392e59c28e305e, type: 3}
+  m_Name: FlameOrbExplosion
+  m_EditorClassIdentifier: 
+  manaCost: 10
+  cooldown: 1
+  castTime: 1
+  icon: {fileID: 21300000, guid: 0b0e33855c6b0c84d96cb693237ff062, type: 3}
+  projectile: {fileID: 1404102611743317438, guid: f3cfc1732b5d5394181376ff234993c8,
+    type: 3}
+  collisionParticle: {fileID: 3112701760081678410, guid: 3f710958e4c9e734186cc1f09f1caa9b,
+    type: 3}
+  projectileAmount: 7
+  direction: 90
+  randomizeDirection: 1
+  gravity: 40
+  arc: 100
+  spacing: 0
+  speed: 12
+  range: 30
+  baseDamage: 25
+  knockback: 2
+  damageType: 2
+  pierce: 0
+  aimAtTarget: 0
+  followTarget: 0
+  turnSpeed: 0
+  spawnSpell: {fileID: 0}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10fd6ab3665b7c47b392e59c28e305e, type: 3}
+  m_Name: SoulSpear
+  m_EditorClassIdentifier: 
+  manaCost: 30
+  cooldown: 2
+  castTime: 0.25
+  icon: {fileID: 21300000, guid: fab37063811f15d40b305d33b92d91d1, type: 3}
+  projectile: {fileID: 4561637184298901901, guid: 6c2c499eecb00a443915d903a21b1c0d,
+    type: 3}
+  collisionParticle: {fileID: 8813521805304951002, guid: fba77711ff378054287f2fab3b538b5d,
+    type: 3}
+  projectileAmount: 1
+  direction: 0
+  randomizeDirection: 0
+  gravity: 0
+  arc: 0
+  spacing: 0
+  speed: 13
+  range: 25
+  baseDamage: 100
+  knockback: 8
+  damageType: 1
+  pierce: 256
+  aimAtTarget: 0
+  followTarget: 0
+  turnSpeed: 0
+  spawnSpell: {fileID: 0}
